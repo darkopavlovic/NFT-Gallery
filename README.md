@@ -1,4 +1,4 @@
-# NFT Gallery
+# NFT Gallery [![Netlify Status](https://api.netlify.com/api/v1/badges/7311c126-bcb1-4e55-9886-938ff1b0a162/deploy-status)](https://app.netlify.com/sites/darko-nft-gallery/deploys)
 
 Gallery website that displays my NFT collection.
 
