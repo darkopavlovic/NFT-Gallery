@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.mainTitle {
+  background-image: linear-gradient(to bottom right, rgba(127, 8, 214, 0.9), rgba(19, 44, 178, 0.9));
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.container {
+  max-width: 1600px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+.galleryNft {
+  max-width: 100%;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 250ms;
+  cursor: pointer;
+}
+
+.galleryNft:hover {
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 10px black;
+}
+
+.galleryNftTitle {
+  background-image: linear-gradient(to bottom right, rgba(127, 8, 214, 0.9), rgba(19, 44, 178, 0.9));
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+#popupImage,
+#popupVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: 250ms transform;
+  padding: 50px;
+}
+
+#selectedImageNft,
+#selectedVideoNft {
+  max-height: 100%;
+}
