@@ -19,6 +19,10 @@ const nftImageIndexes = [
     title: "3D Catpunk #1752"
   },
   {
+    url: "https://oraukjl53ag5zobubgrxqz2wnwetr7bekfgekyjwsp3am3qsmaga.arweave.net/dEFFJX3YDdy4NAmjeGdWbYk4_CRRTEVhNpP2Bm4SYAw/?ext=png",
+    title: "SOLENFORCERS #809"
+  },
+  {
     url: "https://cdn.enjinx.io/metadata/raw/09486270b64d6496b49204eff3f3f128940d9c42/1ff79b0ecd7804700f19c0b1ace5ba3db257c252.png",
     title: "Enjineer #125677"
   }
