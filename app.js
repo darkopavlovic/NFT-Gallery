@@ -19,8 +19,8 @@ const nftVideoIndexes = [
 
 const nftImageIndexes = [
   {
-    url: "https://g4kbxb3bfzpumhrr6bfo6zqcv3vct43rluvux2ackoy5xcm7ox2q.arweave.net/NxQbh2EuX0YeMfBK72YCruop83FdK0voAlOx24mfdfU/?ext=png",
-    title: "3D Catpunk #1752"
+    url: "https://ynjqbiv55vlre227mmwz4wokt5lgyct37njbrfkcmaf43ugiioxa.arweave.net/w1MAor3tVxJrX2MtnlnKn1ZsCnv7UhiVQmALzdDIQ64/?ext=png",
+    title: "3D Catpunk #3982"
   },
   {
     url: "https://oraukjl53ag5zobubgrxqz2wnwetr7bekfgekyjwsp3am3qsmaga.arweave.net/dEFFJX3YDdy4NAmjeGdWbYk4_CRRTEVhNpP2Bm4SYAw/?ext=png",
