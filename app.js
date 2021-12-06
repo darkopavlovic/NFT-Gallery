@@ -10,6 +10,10 @@ const nftVideoIndexes = [
   {
     url: "https://vhqqvhb3a2eeqdfwez7fp4l7fehmi2qfo27hzd2uiqdv3n2xxaga.arweave.net/qeEKnDsGiEgMtiZ-V_F_KQ7EagV2vnyPVEQHXbdXuAw?ext=mp4",
     title: "OG Pass Blue #413"
+  },
+  {
+    url: "https://storage.opensea.io/files/073817a91a721da58391bff86b53557c.mp4",
+    title: "Halberd-001"
   }
 ];
 
