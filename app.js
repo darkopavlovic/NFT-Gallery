@@ -8,12 +8,16 @@ const selectedImageNft = document.getElementById("selectedImageNft");
 // Assign nft sources
 const nftVideoIndexes = [
   {
-    url: "https://vhqqvhb3a2eeqdfwez7fp4l7fehmi2qfo27hzd2uiqdv3n2xxaga.arweave.net/qeEKnDsGiEgMtiZ-V_F_KQ7EagV2vnyPVEQHXbdXuAw?ext=mp4",
-    title: "OG Pass Blue #413"
+    url: "https://storage.opensea.io/files/710d7d469570ecb840c5cf4b35534208.mp4",
+    title: "CryptoWalkers #1751"
   },
   {
     url: "https://storage.opensea.io/files/073817a91a721da58391bff86b53557c.mp4",
     title: "Halberd-001"
+  },
+  {
+    url: "https://vhqqvhb3a2eeqdfwez7fp4l7fehmi2qfo27hzd2uiqdv3n2xxaga.arweave.net/qeEKnDsGiEgMtiZ-V_F_KQ7EagV2vnyPVEQHXbdXuAw?ext=mp4",
+    title: "OG Pass Blue #413"
   }
 ];
 
@@ -23,12 +27,12 @@ const nftImageIndexes = [
     title: "3D Catpunk #3982"
   },
   {
-    url: "https://oraukjl53ag5zobubgrxqz2wnwetr7bekfgekyjwsp3am3qsmaga.arweave.net/dEFFJX3YDdy4NAmjeGdWbYk4_CRRTEVhNpP2Bm4SYAw/?ext=png",
-    title: "SOLENFORCERS #809"
+    url: "https://yiz3othrbj3rxuexbuwflv7wgnm45i2pcwecwuhqqnxuy67ki7sq.arweave.net/wjO3TPEKdxvQlw0sVdf2M1nOo08ViCtQ8INvTHvqR-U/?ext=png",
+    title: "2D Catpunk #2576"
   },
   {
-    url: "https://cdn.enjinx.io/metadata/raw/09486270b64d6496b49204eff3f3f128940d9c42/1ff79b0ecd7804700f19c0b1ace5ba3db257c252.png",
-    title: "Enjineer #125677"
+    url: "https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/sunny-1000.png",
+    title: "Pancake Bunnies - Sunny"
   }
 ];
 
@@ -81,7 +85,7 @@ for (let i = 0; i < nftVideoIndexes.length; i++) {
   nftVideoTitle.classList.add("galleryNftTitle");
   nftVideoTitle.innerHTML = `${nft.title}`;
 
-  // Handle image pop up open
+  // Handle video pop up open
   nftVideo.addEventListener("click", () => {
     popupVideo.style.transform = `translateY(0)`;
     selectedVideoNft.src = `${nft.url}`;
